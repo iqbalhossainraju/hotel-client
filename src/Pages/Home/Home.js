@@ -1,5 +1,6 @@
 import React from 'react';
 import Banner from './Banner';
+import CarouselSide from './CarouselSide';
 import PhotoGallery from './PhotoGallery';
 import Promotion from './Promotion/Promotion';
 
@@ -7,8 +8,9 @@ const Home = () => {
     return (
         <div>
             <Banner />
-            <PhotoGallery />
             <Promotion />
+            <PhotoGallery />
+            <CarouselSide />
         </div>
     );
 };

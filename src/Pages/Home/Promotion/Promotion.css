@@ -1,4 +1,4 @@
-.pTitle {
+/* .pTitle {
     display: inline-block;
     border-top: none;
     border-left: none;
@@ -10,7 +10,17 @@
 
 .pTitle {
     border-right: 1px solid #000;
+} */
+.promoTitle {
+    font-family: 'Great Vibes', cursive;
+    font-size: 44px;
 }
+
+.promoDescription {
+    font-family: 'Great Vibes', cursive;
+    font-size: 30px;
+}
+
 
 .container {
     position: relative;

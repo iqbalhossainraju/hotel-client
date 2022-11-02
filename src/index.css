@@ -12,6 +12,15 @@ body {
   cursor: pointer;
 }
 
+.photoGallery {
+  font-family: 'Great Vibes', cursive;
+  font-size: 40px;
+}
+
+.verticalImageWidth {
+  width: 350px;
+}
+
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
