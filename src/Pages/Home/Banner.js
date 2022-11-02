@@ -80,7 +80,7 @@ const Banner = () => {
                         <span className="relative text-white">TIME STOPS</span>
                     </span>
                     <br />
-                    <span>Welcome to Hotel paradiso in world largest sea beatch.</span>
+                    <span>Welcome to Hotel paradiso in world largest sea beatch side hotel.</span>
                 </div>
             </div>
         </div>
