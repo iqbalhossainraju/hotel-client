@@ -5,10 +5,10 @@ const Banner = () => {
     const [adult, setAdult] = useState(0);
     const [children, setChildren] = useState(0);
     return (
-        <div className="hero min-h-screen" style={{ background: `url(${bgImage})`, backgroundSize: 'cover' }}>
+        <div className="hero max-h-screen" style={{ background: `url(${bgImage})`, backgroundSize: 'cover' }}>
             <div className="hero-overlay bg-opacity-80"></div>
             <div className="hero-content flex-col lg:flex-row-reverse uppercase">
-                <div className="card flex-shrink-0 w-full max-w-sm shadow-2xl bg-base-100">
+                <div className="card flex-shrink-0 w-full max-w-sm shadow-2xl bg-base-100 lg:mr-14">
                     <div className="card-body">
                         <div className="form-control">
                             <label className="label">
@@ -73,7 +73,7 @@ const Banner = () => {
                         </div>
                     </div>
                 </div>
-                <div className="text-center lg:text-left text-white text-3xl">
+                <div className="text-center lg:text-left text-white text-3xl lg:ml-14">
                     <span className="text-2xl">THE PLACE WHERE</span><br />
                     <span className="relative m-2">
                         <span className="block absolute -inset-1 -skew-y-3 bg-pink-500" aria-hidden="true"></span>

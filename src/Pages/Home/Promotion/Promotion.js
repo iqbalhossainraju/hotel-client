@@ -1,40 +1,41 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import promoBg from '../../../assets/background/promotion-bg.jpg';
 import promoBg2 from '../../../assets/background/promotion-bg2.jpg';
 import './Promotion.css';
 
 const Promotion = () => {
     return (
-        <div class="img-container my-5">
-            <h2 className="text-3xl inline-block font-bold">Promotion</h2>
-            <div class="pTitle mx-5"> </div>
-            <p className="text-xl inline-block">TAKE ADVANTAGE OF OUR FEATURED OFFERS</p>
+        <div className="img-container my-5">
+            <h2 className="text-3xl inline-block font-bold text-primary">Promotion</h2>
+            <div className="pTitle mx-5"> </div>
+            <p className="text-xl inline-block text-secondary">TAKE ADVANTAGE OF OUR FEATURED OFFERS</p>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-5 my-5">
-                <div class="container">
-                    <img src={promoBg} alt="Avatar" class="image" />
-                    <div class="promo-overlay">
-                        <div class="promo-overlay uppercase">
-                            <div class="textPromo flex mb-5">
+                <div className="container">
+                    <img src={promoBg} alt="Avatar" className="image" />
+                    <div className="promo-overlay">
+                        <div className="promo-overlay uppercase">
+                            <div className="textPromo flex mb-5">
                                 <h2>long stay</h2>
                                 <p>small town</p>
                             </div>
-                            <div class="textPromo mt-14">
+                            <div className="textPromo mt-14">
                                 <h2>more information</h2>
-                                <button className="btn btn-primary w-full">reserve</button>
+                                <Link to="http://" className="btn btn-primary w-full">reserve</Link>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="container">
-                    <img src={promoBg2} alt="Avatar" class="image" />
-                    <div class="promo-overlay-2 uppercase">
-                        <div class="textPromo-2 flex mb-5">
+                <div className="container">
+                    <img src={promoBg2} alt="Avatar" className="image" />
+                    <div className="promo-overlay-2 uppercase">
+                        <div className="textPromo-2 flex mb-5">
                             <h2>long stay</h2>
                             <p>small town</p>
                         </div>
-                        <div class="textPromo-2 mt-14">
+                        <div className="textPromo-2 mt-14">
                             <h2>more information</h2>
-                            <button className="btn btn-primary w-full">reserve</button>
+                            <Link to="http://" className="btn btn-primary w-full">reserve</Link>
                         </div>
                     </div>
                 </div>
