@@ -1,7 +1,7 @@
 import React from 'react';
 
 const CarouselSide = () => {
-    var Carousel = require('3d-react-carousal').Carousel;
+    const Carousel = require('3d-react-carousal').Carousel;
     let slides = [
         <img src="https://picsum.photos/800/300/?random" alt="1" />,
         <img src="https://picsum.photos/800/301/?random" alt="2" />,

@@ -5,6 +5,8 @@ const Navbar = () => {
     const menuItems = <>
         <li><Link to="/">Home</Link></li>
         <li><Link to="/about">About US</Link></li>
+        <li><Link to="/offers">Offers</Link></li>
+        <li><Link to="/gallery">Gallery</Link></li>
         <li><Link to="/gallery">Gallery</Link></li>
     </>
     return (
@@ -30,7 +32,7 @@ const Navbar = () => {
                     <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" /></svg>
                 </button>
             </div>
-        </div >
+        </div>
     );
 };
 
